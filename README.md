@@ -78,10 +78,10 @@ There are Fundamentals Object in JavaScript
 ## Example 
 
 ```
-var yesterday = new Date("March 6, 2019");
+var yesterday = new Date("March 6, 2019");   <--- Use "new"
 yesterday.toUTCString();
 
-// Wed, 06 Mar 2019 06:00:00 GMT    <--- Use "new"
+// Wed, 06 Mar 2019 06:00:00 GMT   
 
 var myGPA = String(transcript.gpa);   <--- Don't use "new"
 
