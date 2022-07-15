@@ -4,7 +4,7 @@
 2. Scope/Closures
 3. this/Prototypes
 
-## 1. TYPES / COERCION
+## TYPES / COERCION
 
 * Primitive Types
 * Converting Types
@@ -56,6 +56,36 @@ typeof v;  // function
 v = [1, 2, 3];
 typeof v;  // object (subtype of the object there)
 
+```
+
+There are Fundamentals Object in JavaScript
+
+> Use new:
+
+* Object()
+* Array()
+* Function()
+* Date()
+* RegExp()
+* Error()
+
+> Don't use new:
+
+* String()
+* Number()
+* Boolean()
+
+## Example 
+
+```
+var yesterday = new Date("March 6, 2019");
+yesterday.toUTCString();
+
+// Wed, 06 Mar 2019 06:00:00 GMT    <--- Use "new"
+
+var myGPA = String(transcript.gpa);   <--- Don't use "new"
+
+// 3.54
 ```
 
 
