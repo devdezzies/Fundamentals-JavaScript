@@ -4,7 +4,7 @@
 2. Scope/Closures
 3. this/Prototypes
 
-## 1. TYPES / COERCION
+## TYPES / COERCION
 
 * Primitive Types
 * Converting Types
