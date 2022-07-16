@@ -95,7 +95,7 @@ var myGPA = String(transcript.gpa);   <--- Don't use "new"
 > TIP TO SUCCEED IN THIS COURSE: REPEAT EVERY SINGLE EXERCISE AND START IT FROM SCRATCH AND MAKE SURE YOU UNDERSTAND!
 > AND YOU ALSO CAN MAKE A FEW MODIFICATIONS TO TRY AS A EXPERIMENT
 
-**"Learning JavaScript other than just writing JavaScript" - Kyle Simpson**
+**"The best way to learn JS is to get it and write it!" - Kyle Simpson**
 
 
 
