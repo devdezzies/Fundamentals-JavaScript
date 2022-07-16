@@ -38,7 +38,7 @@ loadBooks(myBooks);  // Create an instance of `Bookshelf` class, and pass it as 
 // ***********************
 
 // NOTE: don't modify this function at all
-function fakeAjax(url,cb) {
+function fakeAjax(url,cb) {  // cb as callback
 	setTimeout(function fakeLoadingDelay(){
 		cb([
 			"A Song of Ice and Fire",
@@ -49,3 +49,12 @@ function fakeAjax(url,cb) {
 		]);
 	},500);
 }
+
+
+// TIP TO SUCCEED IN THIS COURSE: REPEAT EVERY SINGLE EXERCISE AND START IT FROM SCRATCH AND MAKE SURE YOU UNDERSTAND! 
+// AND YOU ALSO CAN MAKE A FEW MODIFICATIONS TO TRY AS A EXPERIMENT
+
+// "Learning JavaScript other than just writing JavaScript" - Kyle Simpson
+
+
+
